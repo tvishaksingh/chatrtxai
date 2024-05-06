@@ -6,11 +6,13 @@ ChatwithRTX and you can load earnings or financial documents using the UI which 
 
 python earning.py
 
-'''
-
-earning option move
+```
+**# earning option move**
 It will require you to install requirement.txt
 conda activate openbb
 jupyter-notebook earningmoveoption.ipynb
 
-'''
+**# Financial Summary**
+jupyter-notebook financial_summary.ipynb
+
+```
