@@ -8,13 +8,7 @@ import pandas as pd
 
 if __name__ == '__main__':
 
-    #company_name = input("Enter company name: ")
-    company_name = "TSLA"
-    print(company_name)
-    #get_news_signal(company_name)
-    #result = openbb.stocks.ba.headlines("TSLA")
-    yahoo = obb.equity.price.historical("spy", provider="yfinance").to_df()
-    print(yahoo)
+    company_name = input("Enter company name: ")
     transformed_input = [
             f"Summarizing the key points from the earnings call transcript of {company_name}?",
             f"Please Extract financial metrics from the {company_name} call into a table, list, etc.",
@@ -38,5 +32,5 @@ if __name__ == '__main__':
         ]
     for query in transformed_input:
         print(query)
-        #out = rtx_api.send_message(query)
+        out = rtx_api.send_message(query)
         print(out + "\n")
