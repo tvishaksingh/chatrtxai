@@ -13,4 +13,7 @@ It will require you to install requirement.txt
 conda activate openbb
 jupyter-notebook earningmoveoption.ipynb
 
+Financial Summary
+jupyter-notebook financial_summary.ipynb
+
 '''
